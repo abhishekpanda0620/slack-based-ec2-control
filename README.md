@@ -4,6 +4,22 @@ Control a development EC2 instance from Slack via slash commands (`/ec2 start | 
 
 ---
 
+## Demo
+
+**Slack — `/ec2 status`, `/ec2 start`, and state-aware responses:**
+
+![Slack interaction showing status, start, and idempotent state responses](assets/slack-commands-demo.png)
+
+**EC2 console — instance running after start:**
+
+![AWS EC2 console showing instance in Running state](assets/ec2-console-running.png)
+
+**Lambda — deployed function in AWS console:**
+
+![AWS Lambda code editor showing the deployed handler](assets/lambda-code-editor.png)
+
+---
+
 ## Architecture
 
 ```
